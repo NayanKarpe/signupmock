@@ -1,5 +1,4 @@
 <?php
-session_start();
     //$servername='localhost';
     //$username='root';
   //  $password='';
@@ -49,7 +48,7 @@ $_SESSION[email] = $email;
         }
         else{
 
-            header("Location:/error.html");
+            header("Location: https://nayasignup.herokuapp.com/profile.php/");
 
             exit();
 
