@@ -42,7 +42,7 @@ url: "ajax-form-store.php",
 data: $(this).serialize(), // get all form field value in serialize form
 success: function(){
 
-$("#show").fadeIn();
+$("#show_message").fadeIn();
 
 }
 });
