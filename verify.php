@@ -39,7 +39,7 @@ $_SESSION[email] = $email;
             //header('Location:http://www.google.com');
             //exit();
 
-            header("Location: https://nayasignup.herokuapp.com/profile.php/");
+            header("Location: https://google.com");
 
             exit();
 
