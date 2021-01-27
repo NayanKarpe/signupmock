@@ -20,7 +20,7 @@
 <p>Please enter your credentials to log in</p>
 <br>
 <p id="show_message" style="display: none">Thank you for logging in</p>
-<form  method="post" action="verify.php" id="login-form">
+<form  method="post" action="https://nayasignup.herokuapp.com/verify.php/" id="login-form">
 <div class="form-group ">
 <label>Email</label>
 <input type="email" name="email" id="email" class="form-control" value="" maxlength="30" >
