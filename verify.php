@@ -40,7 +40,7 @@ $_SESSION[email] = $email;
             //header('Location:http://www.google.com');
             //exit();
 
-            header("Location: http://localhost/final/profile.php");
+            header("Location: https://nayweb.herokuapp.com/about/");
 
             exit();
 
